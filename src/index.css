@@ -1,0 +1,56 @@
+body {
+    font-family: "Manrope", sans-serif;
+  }  
+
+  .main{
+    height: 100vh !important;
+  }
+
+  /* /////// Task-1 start ///////// */
+
+
+.blog-card, .btn {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover , .btn:hover {
+    transform: scale(1.05);
+  }
+
+  .single-blog-image {
+    height: 512px
+  }
+
+    /* /////// Task-1 end ///////// */
+
+      /* /////// Task-2 start ///////// */
+
+      .heading-1, table tbody tr td, ul li {
+        background-color: rgb(244, 245, 249) !important;
+    }
+    
+    .list-group-item.active {
+        background-color: none !important;
+        color: black !important; 
+        font-weight: bold !important;
+    }
+    
+    h5 {
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .btn {
+        background-image: linear-gradient(rgb(241,224,105), rgb(231,206,87))
+    }
+    table thead tr th {
+        background-color: rgb(230, 230, 230) !important;
+        border: 2px white solid;
+    }
+    .image-parent{
+        height: 100px;
+        width: 100px;
+        
+    }
+
+        /* /////// Task-2 end ///////// */
