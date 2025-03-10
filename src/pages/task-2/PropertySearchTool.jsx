@@ -30,13 +30,9 @@ const PropertySearchTool = () => {
   return (
     <div className="container my-4">
       <div className="mb-2">
-        <BackButton
-          props={{
-            page: "/",
-          }}
-        />
+        <BackButton />
       </div>
-      <div className="flex items-center heading-1 p-4">
+      <div className="flex items-center bg-light p-4">
         <div className="image-parent overflow-hidden position-absolute border border-5 border-white d-none d-md-block">
           <img
             src="../images/propertyLogo.png"
@@ -66,7 +62,7 @@ const PropertySearchTool = () => {
             </button>
           </div>
 
-          <h5>Selected Properties</h5>
+          <h5>Selected properties</h5>
           <table className="table table-hover text-center">
             <thead>
               <tr>
@@ -92,7 +88,7 @@ const PropertySearchTool = () => {
 
       <div className="row mb-5">
         <div className="col-md-3">
-          <h5>Property Types</h5>
+          <h5>Property types</h5>
           <ul className="list-group rounded-0 ">
             {["All", ...new Set(propertyData.map((p) => p.type))].map(
               (type) => (
@@ -112,7 +108,7 @@ const PropertySearchTool = () => {
         </div>
 
         <div className="col-md-9">
-          <h5>Search Results</h5>
+          <h5>Search results</h5>
           <table className="table table-hover text-center">
             <thead>
               <tr>

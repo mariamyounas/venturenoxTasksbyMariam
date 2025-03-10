@@ -36,11 +36,7 @@ const Blog = () => {
   return (
     <div className="container mt-4">
       <div className="d-md-flex justify-content-between align-items-center mb-3">
-        <BackButton
-          props={{
-            page: "/",
-          }}
-        />
+        <BackButton />
         <p className="text-secondary text-center flex-grow-1 m-0">
           <i className="fa-solid fa-circle-exclamation me-2"></i>
           The API endpoint images are unavailable; a placeholder image is being

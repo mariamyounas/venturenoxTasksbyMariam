@@ -37,11 +37,7 @@ const BlogSingle = () => {
     <div className="container mt-4">
       <div className="row">
         <div className="col-md-2">
-          <BackButton
-            props={{
-              page: "/blog",
-            }}
-          />
+          <BackButton page="/blog" />
         </div>
         <div className="col-md-8">
           <div className="d-block d-sm-flex text-secondary">

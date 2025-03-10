@@ -6,7 +6,7 @@ const Main = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="d-flex align-content-center flex-wrap flex-column justify-content-evenly main">
+    <div className="d-flex align-content-center flex-wrap flex-column justify-content-evenly main vh-100">
       <h1> Venturenox Tasks for Mariam</h1>
       {buttonsData.map((button, index) => (
         <button
